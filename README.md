@@ -3,7 +3,7 @@
 [LICENSE]: /LICENSE
 
 
-This is sample project to try [kafka-manager](https://github.com/yahoo/kafka-manager)
+This is sample project to try [yahoo/kafka-manager](https://github.com/yahoo/kafka-manager)
 
 ## Build
 
@@ -21,7 +21,7 @@ To play with kafka-manager, it's better to have kafka. It's easy to use [tcnksm/
 $ ./script/kafka.sh
 ```
 
-Then run kafka-manager,
+Then run kafka-manager. After this you can access to [http://${DOCKER_HOST}:9000]()
 
 ```bash
 $ ./script/kafka-manager.sh
